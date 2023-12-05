@@ -501,7 +501,7 @@ body {
 .main-nav-link:hover,
 .main-nav-link:active {
   text-decoration: none;
-  color: #ff0000ec;
+  color: #500202ec;
 }
 .main-nav-utilities {
   display: flex;
