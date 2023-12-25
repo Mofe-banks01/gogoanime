@@ -142,7 +142,7 @@ body {
   background-image: url(images/my-hero-academia-4k-aknlwtoyy30rasaf.jpg);
   background-size: cover;
   background-blend-mode: multiply;
-  background-color: rgba(54, 53, 53, 0.300);
+  background-color: rgba(54, 53, 53, 0.3);
   width: 50.5rem;
   height: 30rem;
   background-position: center;
@@ -261,6 +261,9 @@ body {
   padding-right: 9.5rem;
   justify-content: space-between;
 }
+/* .hero-box-section-container-box-2:hover r {
+  animation: rotator 1.17555757s ;
+} */
 .hero-box-section-container-box-2-content-item {
   display: flex;
   flex-direction: row;
@@ -388,4 +391,179 @@ body {
 .hero-adv-img {
   height: 10.75rem;
   width: 25rem;
+}
+.anime-titles-container {
+  background-color: #d2dad3;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  overflow: hidden;
+  position: relative;
+  padding: 4%;
+  height: 100%;
+}
+.anime-titles {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-template-rows: repeat(4, 1fr);
+  place-items: center;
+}
+.anime-titles-heading {
+  display: grid;
+  place-items: center;
+  width: 100%;
+  top: 70.75%;
+  position: absolute;
+  float: right;
+  font-size: 5rem;
+  left: 5%;
+}
+.container {
+  display: grid;
+  place-items: center;
+  position: relative;
+  width: 275px;
+  height: 355px;
+  border-radius: 1em;
+  background: linear-gradient(50deg, #33ff21d5, #280df7);
+  overflow: hidden;
+  margin-bottom: 2rem;
+  animation-name: reverse-rotate 4.17555757s;
+}
+.container::before {
+  content: "";
+  position: absolute;
+  width: 455px;
+  height: 27.5px;
+  top: 0;
+  right: 35px;
+  transition: 1.9s;
+  background: #fff;
+  transform: rotate(-45deg) translate(0, -10px);
+}
+.card {
+  display: grid;
+  place-items: center;
+  width: 267px;
+  height: 347px;
+  /* background: #080018; */
+  border-radius: 0.8em;
+  z-index: 1;
+  color: #858585;
+  overflow: hidden;
+  padding: 1em;
+  text-align: center;
+  cursor: pointer;
+  transition: 1.75s ease;
+}
+.item1 {
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-image: url(https://wallpapers.com/images/high/erased-anime-manga-poster-63j2b24ctb69ohxy.webp);
+}
+.item2 {
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-image: url(https://wallpapers.com/images/high/chain-saw-pictures-900-x-846-1816ayjijobgojan.webp);
+}
+.item3 {
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-image: url(https://wallpapers.com/images/high/attack-on-titan-anime-manga-5cxu7akbeqe3jywn.webp);
+}
+.item4 {
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+ background-image: url(https://wallpapers.com/images/high/deku-pictures-l0ranxab6wkoknky.webp);
+}
+.item5{
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-image: url(https://wallpapers.com/images/high/angel-nasse-platinum-end-minimalist-4mvgmcz9lu7rmlv2.webp);
+}
+.item6{
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-image: url(https://wallpapers.com/images/hd/yuyu-hakusho-poster-art-nlonz7lsozmgcbf4.webp);
+}
+.item7{
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-image: url(https://wallpapers.com/images/high/jojo-s-bizarre-adventure-pictures-g4zd525ikym1jzoq.webp);
+}
+.item8{
+  background-size: cover;
+  background-position: left;
+  background-repeat: no-repeat;
+background-image: url(https://wallpapers.com/images/high/special-a-school-anime-xk878bhsn9g9py88.webp);
+}
+.item9{
+  background-size: cover;
+  background-position: left;
+  background-repeat: no-repeat;
+background-image: url(https://wallpapers.com/images/high/bleach-thousand-year-blood-war-arc-1400-x-1050-wallpaper-ekmq7s6qfngfjb34.webp);
+}
+.item9{
+  background-size: cover;
+  background-position: left;
+  background-repeat: no-repeat;
+background-image: url(https://wallpapers.com/images/high/lupin-the-third-manga-series-xsjeyez3uxi29fmb.webp);
+}
+.item10{
+  background-size: cover;
+  background-position: left;
+  background-repeat: no-repeat;
+background-image: url(https://wallpapers.com/images/high/kimetsu-no-yaiba-anime-blue-v7mmoaqnpf9fje23.webp);
+}
+.item11{
+  background-size: cover;
+  background-position: left;
+  background-repeat: no-repeat;
+background-image: url(https://wallpapers.com/images/high/gurren-lagann-pictures-obqxzkhx6lf9faiq.webp);
+}
+.item12{
+  background-size: cover;
+  background-position: left;
+  background-repeat: no-repeat;
+background-image: url(https://wallpapers.com/images/high/assassination-classroom-background-8ptdmy5yoluw9ugl.webp);
+}
+.container p {
+  padding-top: 15rem;
+}
+
+.card:hover {
+  color: #fff;
+}
+.container:hover::before {
+  animation: effect 2.21s;
+}
+.container:hover {
+  animation: rotate 1.25s;
+  animation-fill-mode: forwards;
+}
+@keyframes effect {
+  100% {
+    transform: rotate(-45deg) translate(0, 450px);
+  }
+}
+@keyframes rotate {
+  from {
+    transform: rotate(0) translate(0, 0);
+  }
+  to {
+    transform: rotate(-4.5deg) translate(0, 1.3px);
+  }
+}
+@keyframes reverse-rotate {
+  from {
+    transform: rotate(-4.5deg) translate(0, 1.3px);
+  }
+  to {
+    transform: rotate(0) translate(0, 0);
+  }
 }
