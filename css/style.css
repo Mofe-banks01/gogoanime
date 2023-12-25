@@ -395,26 +395,26 @@ body {
 .anime-titles-container {
   background-color: #d2dad3;
   font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
-  overflow: hidden;
   position: relative;
-  padding: 4%;
   height: 100%;
+  padding: 5%;
 }
+
 .anime-titles {
+  /* display: flex;
+  flex-direction: row;
+  gap: 1rem; */
   display: grid;
   grid-template-columns: repeat(4, 1fr);
   grid-template-rows: repeat(4, 1fr);
-  place-items: center;
 }
+
 .anime-titles-heading {
-  display: grid;
+position: absolute;
   place-items: center;
-  width: 100%;
-  top: 70.75%;
-  position: absolute;
-  float: right;
-  font-size: 5rem;
-  left: 5%;
+  top: 95%;
+  bottom: -30%;
+  font-size: 1.675rem;
 }
 .container {
   display: grid;
@@ -423,7 +423,7 @@ body {
   width: 275px;
   height: 355px;
   border-radius: 1em;
-  background: linear-gradient(50deg, #33ff21d5, #280df7);
+  background: #080018;
   overflow: hidden;
   margin-bottom: 2rem;
   animation-name: reverse-rotate 4.17555757s;
@@ -476,61 +476,61 @@ body {
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
- background-image: url(https://wallpapers.com/images/high/deku-pictures-l0ranxab6wkoknky.webp);
+  background-image: url(https://wallpapers.com/images/high/deku-pictures-l0ranxab6wkoknky.webp);
 }
-.item5{
+.item5 {
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
   background-image: url(https://wallpapers.com/images/high/angel-nasse-platinum-end-minimalist-4mvgmcz9lu7rmlv2.webp);
 }
-.item6{
+.item6 {
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
   background-image: url(https://wallpapers.com/images/hd/yuyu-hakusho-poster-art-nlonz7lsozmgcbf4.webp);
 }
-.item7{
+.item7 {
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
   background-image: url(https://wallpapers.com/images/high/jojo-s-bizarre-adventure-pictures-g4zd525ikym1jzoq.webp);
 }
-.item8{
+.item8 {
   background-size: cover;
   background-position: left;
   background-repeat: no-repeat;
-background-image: url(https://wallpapers.com/images/high/special-a-school-anime-xk878bhsn9g9py88.webp);
+  background-image: url(https://wallpapers.com/images/high/special-a-school-anime-xk878bhsn9g9py88.webp);
 }
-.item9{
+.item9 {
   background-size: cover;
   background-position: left;
   background-repeat: no-repeat;
-background-image: url(https://wallpapers.com/images/high/bleach-thousand-year-blood-war-arc-1400-x-1050-wallpaper-ekmq7s6qfngfjb34.webp);
+  background-image: url(https://wallpapers.com/images/high/bleach-thousand-year-blood-war-arc-1400-x-1050-wallpaper-ekmq7s6qfngfjb34.webp);
 }
-.item9{
+.item9 {
   background-size: cover;
   background-position: left;
   background-repeat: no-repeat;
-background-image: url(https://wallpapers.com/images/high/lupin-the-third-manga-series-xsjeyez3uxi29fmb.webp);
+  background-image: url(https://wallpapers.com/images/high/lupin-the-third-manga-series-xsjeyez3uxi29fmb.webp);
 }
-.item10{
+.item10 {
   background-size: cover;
   background-position: left;
   background-repeat: no-repeat;
-background-image: url(https://wallpapers.com/images/high/kimetsu-no-yaiba-anime-blue-v7mmoaqnpf9fje23.webp);
+  background-image: url(https://wallpapers.com/images/high/kimetsu-no-yaiba-anime-blue-v7mmoaqnpf9fje23.webp);
 }
-.item11{
+.item11 {
   background-size: cover;
   background-position: left;
   background-repeat: no-repeat;
-background-image: url(https://wallpapers.com/images/high/gurren-lagann-pictures-obqxzkhx6lf9faiq.webp);
+  background-image: url(https://wallpapers.com/images/high/gurren-lagann-pictures-obqxzkhx6lf9faiq.webp);
 }
-.item12{
+.item12 {
   background-size: cover;
   background-position: left;
   background-repeat: no-repeat;
-background-image: url(https://wallpapers.com/images/high/assassination-classroom-background-8ptdmy5yoluw9ugl.webp);
+  background-image: url(https://wallpapers.com/images/high/assassination-classroom-background-8ptdmy5yoluw9ugl.webp);
 }
 .container p {
   padding-top: 15rem;
